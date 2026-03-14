@@ -1,0 +1,51 @@
+body {
+    background-color: #f0f2f5; 
+    font-family: 'Segoe UI', sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.id-card {
+    width: 500px;
+    max-width: 90%;
+    background-color: #fff; 
+    border-radius: 15px; 
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08); 
+    border: 1px solid #ddd;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.id-card:hover {
+    transform: scale(1.1); 
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%; 
+    border: 4px solid #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.tech-icon {
+    width: 40px; 
+    height: 40px;
+    margin: 5px;
+    object-fit: contain;
+    transition: transform 0.2s;
+}
+
+.tech-icon:hover {
+    transform: scale(1.2);
+}
+
+.card-body-left {
+    text-align: center;
+    padding: 30px;
+    background-color: #f8f9fa;
+}
